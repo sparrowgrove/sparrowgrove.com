@@ -49,6 +49,22 @@ if (isset($_GET['app']))
    exit();
    break;
   
+  case "blog":
+   include($apps_directory.'/blog/index.php');
+   exit();
+   break;
+  
+  case "list":
+   echo "<center>";
+   echo "LIST OF ALL APPLICATIONS:<BR />
+         1. User Info {userinfo}<BR />
+         2. Login {login}<BR />
+         3. Clean PC {cleanpc}<BR />
+         4. Blog {blog}<BR />
+         5. Updates {updates}<BR />";
+   echo "</center>";
+   break;
+  
   default:
    echo "<p style='margin-top: 50px; margin-left: 550px;'>Please Select A Valid Application.</p>";
    break;
