@@ -1,0 +1,495 @@
+/* 
+    Document   : style
+    Created on : September 1, 2012, 9:24:48 PM
+    Author     : Christopher Dalyan Sparrowgrove
+    Description: Default Style Sheet
+*/
+
+/* Default Style */
+body
+{
+ font: large verdana, sans-serif;
+ color: white;
+ background-color: grey;
+}
+
+/* Default CSS Style: /pages/*.php */
+#container
+{
+ width: 1000px;
+ height: 1000px;
+ margin: 0 auto;
+ padding: 2px;
+ background-color: black;
+ border: 2px solid #FF9933;
+}
+#header
+{
+ text-align: center;
+ width: 996px;
+ height: 100px;
+ margin-top: 3px;
+ margin-left: 3px;
+ background-color: grey;
+ border-left: 1px solid #FF9933;
+ border-right: 1px solid #FF9933;
+ border-top: 1px solid #FF9933;
+ border-bottom: none;
+}
+#header, img
+{
+ width: 990px;
+ height: 100px;
+}
+#nav
+{
+ font: normal large sans-serif;
+ color: grey;
+ text-align: center;
+ padding-top: 1px;
+ padding-bottom: 3px;
+ width: 990px;
+ height: 20px;
+ margin-top: 0px;
+ margin-left: 3px;
+ background-color: grey;
+ border-left: 1px solid #FF9933;
+ border-right: 1px solid #FF9933;
+ border-top: none;
+ border-bottom: 1px solid #FF9933;
+ -moz-border-radius-bottomleft: 5px;
+ -moz-border-radius-bottomright: 5px;
+ -webkit-border-bottom-left-radius: 5px;
+ -webkit-border-bottom-right-radius: 5px;
+ border-radius: 0px 0px 5px 5px;
+}
+
+#content
+{
+ width: 990px;
+ height: 820px;
+ margin-top: 5px;
+ margin-left: 3px;
+ background-color: grey;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 5px;
+}
+
+#basicinfo
+{
+ width: 485px;
+ height: 170px;
+ margin-top: 3px;
+ margin-left: 3px;
+ padding: 3px 0px 0px 3px;
+ background-color: lightblue;
+ -moz-border-radius: 5px; /* FIX: Mozilla */
+ -webkit-border-radius: 5px; /* FIX: Safari */
+ border-radius: 5px;
+}
+
+#profilepic
+{
+ width: 120px;
+ height: 120px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+}
+
+#name
+{
+ font: italic small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -100px;
+ left: 33px;
+}
+
+#age
+{
+ font: italic small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -99px;
+ left: 168px;
+}
+
+#location
+{
+ font: italic small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -97px;
+ left: 130px;
+}
+
+#travelrange
+{
+ font: italic small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -97px;
+ left: 145px;
+}
+
+#drivers_license
+{
+ font: italic small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -97px;
+ left: 135px;
+}
+
+#citizen
+{
+ font: italic small "Times new Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -97px;
+ left: 135px;
+}
+
+#lastupdate
+{
+ font: italic 7pt "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -90px;
+ left: 135px;
+}
+
+#links
+{
+ font: italic small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -120px;
+ left: -105px;
+}
+
+#contact
+{
+ width: 485px;
+ height: 170px;
+ position: relative;
+ top: -173px;
+ left: 498px; /*455px */
+ padding: 3px 0px 0px 3px;
+ background-color: lightblue;
+ -moz-border-radius: 5px; /* FIX: Mozilla */
+ -webkit-border-radius: 5px; /* FIX: Safari */
+ border-radius: 5px;
+}
+
+#phone
+{
+ font: small "Times New Roman", sans-serif;
+ padding: 0.5px -0.5px -0.5px 3px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 50px; /* FIX: Moxilla Bowser */
+ -webkit-border-radius: 50px; /* FIX: Safari Browser */
+ border-radius: 50px;
+}
+
+#email
+{
+ font: small "Times New Roman", sans-serif;
+ padding: 0.5px 3px 0.5px 3px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 50px; /* FIX: Moxilla Bowser */
+ -webkit-border-radius: 50px; /* FIX: Safari Browser */
+ border-radius: 50px;
+}
+
+#im
+{
+ font: small "Times New Roman", sans-serif;
+ padding: 0.5px 3px 0.5px 3px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 50px; /* FIX: Mozilla Broswer */
+ -webkit-border-radius: 50px; /* Fix: Safari Browser */
+ border-radius: 50px;
+}
+
+#address
+{
+ font: small "Times New Roman", sans-serif;
+ padding: 0.5px 3px 0.5px 3px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 50px; /* FIX: Mozilla Browser */
+ -webkit-border-radius: 50px; /* Fix: Safari Browser */
+ border-radius: 50px;
+}
+
+#fb
+{
+ font: small "Times New Roman", sans-serif;
+ padding: 0.5px 3px 0.5px 3px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 50px; /* Fix: Mozilla Browser */
+ -webkit-border-radius: 50px; /* Fix: Safari Browser */
+ border-radius: 50px;
+}
+
+#li
+{
+ font: small "Times New Roman", sans-serif;
+ padding: 0.5px 3px 0.5px 3px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 50px; /* Fix: Mozilla Browser */
+ -webkit-border-radius: 50px; /* Fix: Safari Browser */
+ border-radius: 50px;
+}
+
+#contactnote 
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black;
+}
+
+#label1
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -15px;
+ left: 0px;
+}
+
+#value1
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black; 
+}
+
+#label2
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black; 
+ position: relative;
+ top: -25px;
+ left: 0px;
+}
+
+#value2
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black;
+}
+
+#label3
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black;
+ position: relative;
+ top: -5px;
+ left: 0px;
+}
+
+#value3
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black; 
+}
+
+#label4
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black; 
+}
+
+#value4
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black; 
+}
+
+#contactcopyright
+{
+ font: bold small "Times New Roman", sans-serif;
+ color: black;
+}
+#recomendations
+{
+ font: italic large "Times New Roman", sans-serif;
+ color: black;
+ padding: 2px 0px 0px 2px;
+ width: 485px;
+ height: 550px;
+ position: relative;
+ top: -170px;
+ left: 0px;
+ margin-top: 3px;
+ margin-left: 3px;
+ background-color: lightblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 5px; /* FIX: Mozilla Browser */
+ -webkit-border-radius: 5px; /* FIX: Safari Browser */
+ border-radius: 5px;
+}
+
+#recomendationstitle
+{
+ font: italic large "Times New Roman", sans-serif;
+ color: black;
+ padding: 5px;
+ text-align: center;
+ width: 470px;
+ height: 327px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 5px; /* FIX: Mozilla Browser */
+ -webkit-border-radius: 5px; /* FIX: Safari Browser */
+ border-radius: 5px;
+}
+#comments
+{
+ width: auto;
+ height: 30px;;
+ font: italic 10pt "Times New Roman", sans-serif;
+ color: black;
+ padding: 10px;
+ text-wrap: normal;
+ text-align: center;
+ margin-top: 5px;
+ background-color: skyblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 5px; /* FIX: Mozilla Browser */
+ -webkit-border-radius: 5px; /* FIX: Safari Browser */
+ border-radius: 5px;
+}
+#form
+{
+ margin-top: 0px;
+ margin-left: 2px;
+}
+input
+{
+ border-radius: 5px;
+ background-color: skyblue;
+}
+#inputname
+{
+ padding: 3px;
+}
+#jobtitle
+{
+ position: relative;
+ top: 0px;
+ left: 3px;
+}
+#company
+{
+ position: relative;
+ top: 5px;
+ left: 100px;
+}
+#comment
+{
+ position: relative;
+ top: 10px;
+ left: 10px;
+}
+#inputcomment
+{
+ position: relative;
+ top: 2px;
+ left: -00px;
+ width: 300px;
+ height: 50px;
+}
+
+#submit
+{
+ position: relative;
+ top: 30px;
+ left: -100px;
+}
+#aboutme
+{
+ font: italic large "Times New Roman", sans-serif;
+ color: black;
+ padding: 2px 0px 0px 2px;
+ width: 500px;
+ height: 400px;
+ margin-top: 3px;
+ margin-left: 3px;
+ background-color: lightblue;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+aboutmelabel
+{
+ font: bold medium "Times New Roman", serif;
+}
+
+#footer
+{
+ font: normal medium fantasy, sans-serif;
+ color: lightgoldenrodyellow;
+ margin-top: -70px;
+ margin-left: 5px;
+}
+
+#design
+{
+ font: normal small monospace, sans-serif;
+ color: blue;
+ margin-left: 130px;
+ padding-left: 2px;
+ padding-right: 2px;
+ background-color: lightblue;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+
+
+/* JCDT Application */
+
+#jcdt_title
+{
+ margin: 25%;
+ text-align: center;
+ font: normal larger "AR Darling", sans-serif;
+ background-color: skyblue;
+ border: 2px solid #FF9933;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+#table
+{
+ margin: 35px;
+ width: 900px; 
+ height: 250px;
+ padding-top:  -15px;
+ background-color: grey; 
+ -webkit-border-radius: 5px;
+}
+
+#tr{background-color: graytext;}
+#td{padding: 5px 5px 5px 5px; }
+#date{width: 80px; font-size: small;}
+#cssv {width: 200px; font-size: small;}
+
+#pages 
+{
+ margin-top: -30px;
+ margin-right: 50px;
+ float: right;
+ background-color: appworkspace;
+ border: 1px solid #FF9933;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+}
