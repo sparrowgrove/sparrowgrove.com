@@ -17,8 +17,8 @@
 //require_once('config/config.php');
 /********CONFIGURATION FILE**********/
 
-$tmp_recov = '19988';
-$reg_fix = '95';
+$tmp_recov = '20088';
+$reg_fix = '156';
 
 echo "Temporary Files Deleted and Space Saved to date: ".$tmp_recov;
 echo "<BR />";
