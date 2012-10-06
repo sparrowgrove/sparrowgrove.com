@@ -11,8 +11,6 @@
    *     Created: September 1, 2012 6:18pm MT
    *     Updated: September 14, 2012 4:19pm MT
    * Description: Professional Webpage
-   * TODO:
-   * -Create a count up script: Current Age & Days on center
   -->
   <link rel="stylesheet" type="text/css" href="style.css" />
   
@@ -107,15 +105,15 @@
     </div>
     <div id="contact">
      <div id="contactnave">
-      <span id="phone"><a href="?app=userinfo&type=jobcorps&center=weberbasin&record=writeups&info=status">Enrollment Status</a></span> |
-      <span id="email"><a href="#">Center Enrollment</a></span> | 
-      <span id="im"><a href="#">Leaderships</a></span> |
-      <span id="address"><a href="#">Awards</a></span> |
-      <span id="fb"><a href="#">..</a></span> | 
-      <span id="li"><a href="#">..</a></span>
+      <span id="phone"><a href="?page=home&contacttype=phone">Phone</a></span> |
+      <span id="email"><a href="?page=home&contacttype=email">E-Mail</a></span> | 
+      <span id="im"><a href="?page=home&contacttype=im">Instant Message</a></span> |
+      <span id="address"><a href="?page=home&contacttype=postal">Postal Address</a></span> |
+      <span id="fb"><a href="?page=home&contacttype=fb">Facebook</a></span> | 
+      <span id="li"><a href="?page=home&contacttype=li">Linkedin</a></span>
      </div>
      <hr />
-     <?PHP require("lib/apps/userinfo/personalrecord.php"); //Dynamic Contact Us App ?>
+     <?PHP require($pages_directory."/contact.php"); //Dynamic Contact Us App ?>
     </div>
     <div id="recomendations" style="width: 980px; height: 600px; padding-top: 25px;">
      <span id="jcdt_title"> Webber Basin Job Corps Disciplinary Record </span>
