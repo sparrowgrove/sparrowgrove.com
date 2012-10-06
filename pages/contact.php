@@ -26,7 +26,6 @@ if (isset($_GET['contacttype']))
              <span id='value3'>(210) 645-5037 (All Calls Forward To Home & Cell)</span>
             </span>
            </P>
-           <hr />
             <span id='contactcopyright'>&copy; Copyright 2012 All Rights Reserved - Christopher Sparrowgrove</span>
           
          ";
@@ -48,7 +47,6 @@ if (isset($_GET['contacttype']))
              <span id='value3'>chrisismyna@me.com</span>
             </span>
            </P>
-           <hr />
             <span id='contactcopyright'>&copy; Copyright 2012 All Rights Reserved - Christopher Sparrowgrove</span>
           
          ";
@@ -71,7 +69,6 @@ if (isset($_GET['contacttype']))
              <span id='value3'>csparrowgrove@gmail.com</span>
             </span>
            </P>
-           <hr />
             <span id='contactcopyright'>&copy; Copyright 2012 All Rights Reserved - Christopher Sparrowgrove</span>
           
          ";
@@ -100,7 +97,6 @@ if (isset($_GET['contacttype']))
              San Antonio, TX, 78251</span>
             </span>
            </P>
-           <hr />
             <span id='contactcopyright'>&copy; Copyright 2012 All Rights Reserved - Christopher Sparrowgrove</span>
           
          ";
