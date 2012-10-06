@@ -41,16 +41,18 @@
       $results = mysql_query('SELECT name FROM professional');
       if (!$results) {die('Something Went Wrong. Reason: ' . mysql_error());}
       echo mysql_result($results, 0); //
-      ?>
+      ?> 
      </span>
      <span id="age">
       <BR />
       <?PHP
       $results = mysql_query('SELECT dob FROM professional');
       if (!$results) {die('Something Went Wrong. Reason: ' . mysql_error());}
-      //$dob =  mysql_result($results, 0);
-      //$age = str_split($dob, $split_length = "5"); Get only part of the string and do a math count
-      echo "AGE: 23 Years Old"; 
+      $dob =  mysql_result($results, 0);
+      //Calculate the age 
+      $yearsold = new DateTime($dob); 
+      $interval = $yearsold->diff(new DateTime);
+      echo "AGE: ".$interval->y." Years Old"; 
       ?>
      </span>
      <span id="location">
