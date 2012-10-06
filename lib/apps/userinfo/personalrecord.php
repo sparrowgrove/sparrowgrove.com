@@ -12,7 +12,7 @@
  *   COPYRIGHT: ©Copyright 2012 - All Rights Reserved   
  *      
  */
-
+ 
 /********CONFIGURATION FILE**********/
 //require_once('config/config.php');
 /********CONFIGURATION FILE**********/
@@ -43,3 +43,4 @@ if (isset($_GET['info']))
 
 
 ?>
+
